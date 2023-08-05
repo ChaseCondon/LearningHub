@@ -37,6 +37,16 @@ fn main() {
 
     let m = Message::Write(String::from("hello"));
     m.call();
+
+    let some_number = Some(5);
+    let some_char = Some('e');
+
+    let absent_number: Option<i32> = None; // Need to specify type cause rust cannot infer based on None alone
+
+    let x: i8 = 5;
+    let y: Option<i8> = Some(5);
+
+    // let sum = x + y; // Doesn't work - incompatible types
 }
 
 fn route(ip_kind: IpAddrKind) {}
