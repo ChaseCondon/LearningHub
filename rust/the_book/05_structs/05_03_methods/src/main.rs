@@ -58,5 +58,5 @@ fn main() {
 
     // Associated functions are called with :: instead of . like methods
     // (Similar to static methods in Java)
-    square = Rectangle::square(15);
+    let square = Rectangle::square(15);
 }

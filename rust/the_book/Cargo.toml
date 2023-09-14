@@ -1,0 +1,23 @@
+[workspace]
+members = [
+    "./01_getting_started/01_02_hello_cargo",
+    "./02_guessing_game",
+    "./03_common_programming_concepts/03_01_variables_and_mutability",
+    "./03_common_programming_concepts/03_02_data_types",
+    "./03_common_programming_concepts/03_03_functions",
+    "./03_common_programming_concepts/03_04_control_flow",
+    "./04_ownership/04_01_what_is_ownership",
+    "./04_ownership/04_02_references_and_borrowing",
+    "./04_ownership/04_03_slices",
+    "./05_structs/05_01_defining_and_instantiating",
+    "./05_structs/05_02_example_program_rectangle",
+    "./05_structs/05_03_methods",
+    "./06_enums/06_01_defining_enums",
+    "./06_enums/06_02_match_control_flow",
+    "./06_enums/06_03_if_let",
+    "./07_modules/07_02_defining_modules",
+    "./07_modules/07_03_paths_and_references",
+    "./07_modules/07_04_bringing_paths_into_scope",
+    "./07_modules/07_05_seperating_modules_into_files",
+    "./08_collections/08_01_vectors"
+]
