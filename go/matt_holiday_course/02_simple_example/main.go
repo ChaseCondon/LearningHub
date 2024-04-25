@@ -1,9 +1,9 @@
 package main
 
 import (
+	"02_simple_example/hello"
 	"fmt"
 	"os"
-	"02_Simple_Example/hello"
 )
 
 func main() {
